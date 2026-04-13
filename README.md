@@ -4,14 +4,14 @@
 
 We study a finite-horizon dynamic duopoly where two firms compete on prices with limited capacities. At each period, firm \(i\) chooses a price \(p_{it} \in \{p_l, p_h\}\), and demand follows a multinomial logit (MNL) model:
 
-\[
+$$
 q_i(p_t) = \frac{\exp(a - b p_i)}{1 + \sum_{k \in \{i,-i\}} \exp(a - b p_k)}
-\]
+$$
 Firms start with initial capacities \((s_i, s_{-i})\), and the value function under equilibrium pricing satisfies:
 
-\[
+$$
 V_i(s_i, s_{-i}, t) = \lambda \pi_i(p^*, s_i, s_{-i}, t) + (1 - \lambda)V_i(s_i, s_{-i}, t-1)
-\]
+$$
 We consider two information structures:
 
 - **Transparent setting:** firms observe both capacities and solve a dynamic game via backward induction.
@@ -31,7 +31,7 @@ This project was developed under the guidance of **[Zizhuo Wang](https://mypage.
 
 The project is currently **paused and not under active development**.
 
-==**If you are interested in this project and would like to collaborate, please feel free to contact me and Zizhuo Wang.**==
+**If you are interested in this project and would like to collaborate, please feel free to contact me and Zizhuo Wang.**
 
 ---
 
